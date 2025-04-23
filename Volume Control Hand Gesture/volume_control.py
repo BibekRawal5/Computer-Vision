@@ -16,7 +16,7 @@ vol = volume.GetMasterVolumeLevel()
 cap = cv2.VideoCapture(0)
 ctime = 0
 ptime = 0
-
+# //test
 detector = hdm.Hand_Detector(detect_min=0.7)
 
 while True:
